@@ -1,0 +1,21 @@
+
+.workline .p-timeline-event-content,
+.workline .p-timeline-event-opposite {
+    line-height: 1;
+}
+
+@media screen and (max-width: 960px) {
+    .workline .customized-timeline .p-timeline-event:nth-child(even) {
+        flex-direction: row !important;
+    }
+    .workline .customized-timeline .p-timeline-event:nth-child(even) .p-timeline-event-content {
+        text-align: left !important;
+    }
+    .workline .customized-timeline .p-timeline-event-opposite {
+        flex: 0;
+    }
+    .workline .customized-timeline .p-card {
+        margin-top: 1rem;
+    }
+}
+    
